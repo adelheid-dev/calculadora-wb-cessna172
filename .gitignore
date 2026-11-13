@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# --- Ambiente virtual ---
+.venv/
+venv/
+env/
+
+# --- Testes / cobertura ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Saídas geradas pelo programa ---
+relatorios/
+out/
+*.png
+
+# --- Editores / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
